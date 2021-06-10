@@ -1,0 +1,1036 @@
+                                * {
+                                    margin: 0px;
+                                    padding: 0px;
+                                }
+                                /*                                 
+                                body {
+                                    overflow: hidden;
+                                } */
+                                
+                                .home button {
+                                    display: none;
+                                    height: 50px;
+                                    width: 50px;
+                                    border-radius: 50%;
+                                    vertical-align: middle;
+                                    line-height: 40px;
+                                    background-color: rgb(219, 10, 115);
+                                    text-align: center;
+                                    border: none;
+                                    margin-left: 10px;
+                                    margin-top: 30px;
+                                }
+                                
+                                .home button span {
+                                    display: block;
+                                    height: 1px;
+                                    text-align: center;
+                                    width: 70%;
+                                    background-color: white;
+                                    margin: 5px 0px;
+                                    margin-left: 7px;
+                                }
+                                /* profilebar start */
+                                
+                                .profilebar {
+                                    height: 100vh;
+                                    width: 25%;
+                                    position: fixed;
+                                    background: linear-gradient(rgb(230, 55, 84) 40%, orange);
+                                    float: left;
+                                    text-align: center;
+                                    color: white;
+                                }
+                                
+                                .menubar {
+                                    margin-left: 40px;
+                                    margin-right: 40px;
+                                    margin-top: 30px;
+                                    margin-bottom: 60px;
+                                }
+                                
+                                .menubar nav ul {
+                                    list-style-type: none;
+                                }
+                                
+                                .menubar nav ul li {
+                                    width: 80%;
+                                    margin-bottom: 10px;
+                                    line-height: 35px;
+                                    text-align: left;
+                                    border: 1px solid rgba(255, 255, 255, 0.068);
+                                    border-top: none;
+                                    border-left: none;
+                                    border-right: none;
+                                }
+                                
+                                .menubar nav ul li a {
+                                    font-size: 15px;
+                                    color: white;
+                                    text-decoration: none;
+                                    box-sizing: border-box;
+                                    vertical-align: middle;
+                                    word-spacing: 5px;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                }
+                                
+                                .salonlogo {
+                                    margin-top: 50px;
+                                    font-size: 50px;
+                                    color: white;
+                                }
+                                
+                                h1 {
+                                    font-size: 40px;
+                                }
+                                
+                                h2 {
+                                    font-family: unset;
+                                    font-style: italic;
+                                }
+                                
+                                .contactbar {
+                                    margin-top: 100px;
+                                }
+                                
+                                .timing {
+                                    box-sizing: border-box;
+                                    display: flex;
+                                    flex-direction: row;
+                                    width: 80%;
+                                    margin: auto;
+                                    margin-bottom: 30px;
+                                }
+                                
+                                .logo {
+                                    text-align: justify;
+                                    font-size: 45px;
+                                }
+                                
+                                .logo2 {
+                                    text-align: justify;
+                                    font-size: 50px;
+                                }
+                                
+                                .timingdescription {
+                                    box-sizing: border-box;
+                                    font-size: 20px;
+                                    text-align: left;
+                                    padding-left: 10px;
+                                }
+                                
+                                .timingdescription2 {
+                                    box-sizing: border-box;
+                                    font-size: 20px;
+                                    text-align: left;
+                                    padding-left: 23px;
+                                }
+                                /* profilebar end */
+                                /* contentbar start */
+                                
+                                .content {
+                                    width: 75%;
+                                    float: right;
+                                }
+                                /* home  */
+                                
+                                .home {
+                                    width: 100%;
+                                    height: 100vh;
+                                    animation: salon;
+                                    animation-duration: 15s;
+                                    animation-iteration-count: infinite;
+                                    animation-timing-function: ease-in-out;
+                                }
+                                
+                                @keyframes salon {
+                                    0% {
+                                        background-image: url(../image/depositphotos_88997628-stock-photo-woman-applying-dry-cosmetic-tonal.jpg);
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                    }
+                                    50% {
+                                        background-image: url(../image/71Qqnhm0LtL._SL1500_.jpg);
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                    }
+                                    100% {
+                                        background-image: url(../image/istockphoto-500504815-612x612.jpg);
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                    }
+                                }
+                                
+                                .mlatestnews {
+                                    width: 100%;
+                                    margin: auto;
+                                    display: none;
+                                    overflow: hidden;
+                                }
+                                
+                                .mlatestnews .container {
+                                    width: 100%;
+                                }
+                                
+                                .mlatestnews .container .row {
+                                    width: 100%;
+                                    display: flex;
+                                    flex-direction: row;
+                                    box-sizing: border-box;
+                                }
+                                
+                                .mlatestnews .container .row .newsbox {
+                                    width: 33.33%;
+                                    box-sizing: border-box;
+                                }
+                                
+                                .mlatestnews .container .row .newsbox .newssubbox {
+                                    width: 100%;
+                                    box-sizing: border-box;
+                                    margin: 0px 10px;
+                                    text-emphasis: center;
+                                    background-color: white;
+                                    border: 1px solid rgba(128, 128, 128, 0.082);
+                                }
+                                
+                                .mlatestnews .container .row .newsbox .newssubbox img {
+                                    height: 200px;
+                                    width: 100%;
+                                    margin-bottom: 20px;
+                                }
+                                
+                                .mlatestnews .container .row .newsbox .newssubbox p {
+                                    color: gray;
+                                    font-size: 15px;
+                                    margin-bottom: 10px;
+                                    padding-left: 20px;
+                                }
+                                
+                                .mlatestnews .container .row .newsbox .newssubbox h1 {
+                                    font-size: 20px;
+                                    margin-bottom: 20px;
+                                    padding-left: 20px;
+                                }
+                                
+                                .date {
+                                    text-align: right;
+                                    margin-right: 30px;
+                                }
+                                
+                                .customerreview {
+                                    display: none;
+                                    width: 100%;
+                                    background-image: url(../image/massage.jpg);
+                                    background-size: 100%;
+                                    background-repeat: no-repeat;
+                                    z-index: -1;
+                                }
+                                
+                                .customerreviewtext {
+                                    background-color: rgba(0, 0, 0, 0.171);
+                                    width: 100%;
+                                    height: 600px;
+                                    z-index: 1;
+                                }
+                                
+                                .customerreviewtext h1 {
+                                    color: rgb(199, 26, 113);
+                                    font-size: 35px;
+                                    font-family: 'Playfair Display', serif;
+                                    padding-top: 50px;
+                                    padding-left: 40px;
+                                    text-align: left;
+                                }
+                                
+                                .customerreviewtext p {
+                                    color: grey;
+                                    text-align: left;
+                                    padding-left: 40px;
+                                    font-size: 18px;
+                                }
+                                
+                                .customerbox {
+                                    height: 250px;
+                                    width: 70%;
+                                    background-color: white;
+                                    margin: auto;
+                                    margin-top: 30px;
+                                    border-radius: 10%;
+                                }
+                                
+                                .customerbox p {
+                                    color: gray;
+                                    text-align: justify;
+                                    padding: 20px 10px;
+                                }
+                                
+                                .customerperdetails {
+                                    width: 80%;
+                                    margin: auto;
+                                    display: flex;
+                                    flex-direction: row;
+                                    margin-bottom: 10px;
+                                }
+                                
+                                .customerperdetails img {
+                                    height: 50px;
+                                    width: 50px;
+                                    border-radius: 50%;
+                                }
+                                
+                                .customerperdetails h2 {
+                                    font-size: 17px;
+                                    font-style: normal;
+                                    padding: 0px 10px;
+                                }
+                                
+                                .customerperdetails p {
+                                    font-size: 15px;
+                                    padding: 0px 10px;
+                                }
+                                
+                                .cosmeticbrands {
+                                    display: none;
+                                    width: 90%;
+                                    margin: auto;
+                                    margin-bottom: 100px;
+                                }
+                                
+                                .cosmeticbrandlogo {
+                                    display: flex;
+                                    flex-direction: row;
+                                    margin-top: 50px;
+                                }
+                                
+                                .cosmeticbrandlogo img {
+                                    height: 50px;
+                                    width: 70px;
+                                    margin: 0px 35px;
+                                }
+                                /* home end */
+                                /* aboutsalon */
+                                
+                                .aboutsalon {
+                                    width: 90%;
+                                    margin: auto;
+                                    background-color: white;
+                                    position: relative;
+                                    overflow: hidden;
+                                }
+                                
+                                h3 {
+                                    color: rgb(199, 26, 113);
+                                    font-size: 35px;
+                                    font-family: 'Playfair Display', serif;
+                                    margin-top: 50px;
+                                    margin-bottom: 5px;
+                                    position: relative;
+                                    left: -100%;
+                                    transition: 1.5s;
+                                }
+                                
+                                .content:hover h3 {
+                                    left: 0%;
+                                }
+                                
+                                h4 {
+                                    font-family: 'Playfair Display', serif;
+                                    font-size: 24px;
+                                    font-style: italic;
+                                    font-weight: 500;
+                                    margin-bottom: 25px;
+                                    position: relative;
+                                    transition: 1.5s;
+                                    left: -100%;
+                                    overflow: hidden;
+                                }
+                                
+                                .content:hover h4 {
+                                    left: 0;
+                                }
+                                
+                                .information {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                                
+                                .customerimages {
+                                    height: 500px;
+                                    width: 450px;
+                                }
+                                
+                                .aboutsalon p {
+                                    font-size: 15px;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    color: grey;
+                                    line-height: 30px;
+                                    padding-left: 25px;
+                                }
+                                
+                                .salonteam {
+                                    width: 100%;
+                                    display: none;
+                                }
+                                
+                                .salonteam .containerteam {
+                                    width: 100%;
+                                    background-color: white;
+                                    border: 1px solid rgba(128, 128, 128, 0.068);
+                                }
+                                
+                                .salonteam .teamrow {
+                                    width: 100%;
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                                
+                                .salonteam .teambox {
+                                    width: 50%;
+                                    box-sizing: border-box;
+                                    padding: 5px;
+                                }
+                                
+                                .salonteam .teamsubbox {
+                                    width: 100%;
+                                    text-align: center;
+                                }
+                                
+                                .salonteam .teamsubbox img {
+                                    height: 150px;
+                                    width: 150px;
+                                    border-radius: 50%;
+                                }
+                                
+                                .salonteam .teamsubbox h1 {
+                                    font-size: 25px;
+                                    margin-top: 30px;
+                                }
+                                
+                                .salonteam .teamsubbox h2 {
+                                    font-size: 17px;
+                                    color: rgb(233, 12, 122);
+                                    font-style: normal;
+                                    margin-top: 10px;
+                                }
+                                
+                                .salonteam .teamsubbox p {
+                                    font-weight: 0px;
+                                }
+                                
+                                .salonteam .teamsubbox .socialbar {
+                                    display: flex;
+                                    flex-direction: row;
+                                    margin-bottom: 30px;
+                                }
+                                
+                                .salonteam .teamsubbox .socialbox {
+                                    height: 25px;
+                                    width: 25px;
+                                    padding-top: 15px;
+                                    background-color: white;
+                                    border: 1px solid rgb(230, 11, 120);
+                                    border-radius: 50%;
+                                    margin: 0px 10px;
+                                }
+                                
+                                .salonteam .teamsubbox i {
+                                    font-size: 20px;
+                                    color: rgb(230, 11, 120);
+                                }
+                                /* aboutsalon end */
+                                /* salon service */
+                                
+                                .services {
+                                    width: 90%;
+                                    margin: auto;
+                                    overflow: hidden;
+                                }
+                                
+                                .template {
+                                    width: 100%;
+                                }
+                                
+                                .row {
+                                    width: 100%;
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                }
+                                
+                                .imagebox {
+                                    width: 33.333%;
+                                    float: left;
+                                    /* background-color: blueviolet; */
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                    box-sizing: border-box;
+                                    overflow: hidden;
+                                }
+                                
+                                .imagesubbox {
+                                    position: relative;
+                                    width: 100%;
+                                    float: left;
+                                    box-sizing: border-box;
+                                    padding: 10px;
+                                    overflow: hidden;
+                                }
+                                
+                                .viewbar {
+                                    position: absolute;
+                                    bottom: -40%;
+                                    width: 95%;
+                                    text-align: center;
+                                    height: 160px;
+                                    box-sizing: border-box;
+                                    overflow: hidden;
+                                }
+                                
+                                .viewbar h6 {
+                                    text-align: center;
+                                    font-size: 30px;
+                                    padding-top: 10px;
+                                    color: white;
+                                    margin-bottom: 20px;
+                                }
+                                
+                                .viewbar span {
+                                    text-align: center;
+                                    font-size: 30px;
+                                    padding-top: 10px;
+                                    padding-left: 10px;
+                                    color: white;
+                                    margin-top: 30px;
+                                }
+                                
+                                .imagesubbox img {
+                                    width: 100%;
+                                    height: 200px;
+                                    background-position: center;
+                                    background-size: cover;
+                                }
+                                
+                                .imagesubbox:hover .viewbar {
+                                    bottom: -0px;
+                                    transition: 2s;
+                                    transform: scale(1.1, 1.1);
+                                }
+                                
+                                .imagesubbox:hover img {
+                                    transform: scale(1.1, 1.1);
+                                }
+                                
+                                .imagesubbox::before {
+                                    content: '';
+                                    height: 200px;
+                                    width: 100%;
+                                    background-color: rgba(0, 0, 0, 0.226);
+                                    position: absolute;
+                                    transition: 1s;
+                                    top: 100%;
+                                    right: 100%;
+                                }
+                                
+                                .imagesubbox:hover::before {
+                                    height: 98%;
+                                    width: 100%;
+                                    position: absolute;
+                                    top: 0%;
+                                    left: 0%;
+                                    transition: 1s;
+                                    z-index: 1;
+                                }
+                                
+                                .imagesubbox img::after {
+                                    content: '';
+                                    position: absolute;
+                                }
+                                
+                                .imagesubbox img:hover::after {
+                                    transform: scale(1.1, 1.1);
+                                }
+                                /* salon service end */
+                                /* blog */
+                                
+                                .blog {
+                                    width: 90%;
+                                    margin: auto;
+                                    overflow: hidden;
+                                }
+                                
+                                .blogcontent {
+                                    width: 100%;
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                                
+                                .blogimage {
+                                    height: 350px;
+                                    width: 600px;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    overflow: hidden;
+                                }
+                                
+                                .blogimage img {
+                                    height: 350px;
+                                    width: 600px;
+                                }
+                                
+                                .blogimage img:hover {
+                                    transform: scale(1.5, 1.5);
+                                }
+                                
+                                .blogsearch {
+                                    width: 200px;
+                                    height: 50px;
+                                    border: 1px solid rgba(47, 79, 79, 0.199);
+                                    text-align: left;
+                                }
+                                
+                                .blogsearchbuttonbox {
+                                    display: flex;
+                                    flex-direction: row;
+                                    margin-left: 30px;
+                                }
+                                
+                                .blogbutton {
+                                    display: inline;
+                                    width: 50px;
+                                    height: 50px;
+                                    background-color: rgb(172, 5, 89);
+                                    color: white;
+                                    font-size: 30px;
+                                }
+                                
+                                .buttonarrow {
+                                    font-size: 25px;
+                                }
+                                
+                                h5 {
+                                    color: rgb(228, 13, 120);
+                                    margin-left: 30px;
+                                    margin-top: 30px;
+                                    font-size: 30px;
+                                }
+                                
+                                .searchbar {
+                                    margin-top: 10px;
+                                    margin-left: 30px;
+                                }
+                                
+                                .searchbar nav ul {
+                                    list-style-type: none;
+                                }
+                                
+                                .searchbar nav ul li {
+                                    text-align: left;
+                                    width: 80%;
+                                    margin-bottom: 10px;
+                                    line-height: 50px;
+                                    text-align: left;
+                                    border: 1px solid rgba(128, 128, 128, 0.089);
+                                    border-top: none;
+                                    border-left: none;
+                                    border-right: none;
+                                }
+                                
+                                .searchbar nav ul li a {
+                                    text-align: left;
+                                    font-size: 18px;
+                                    color: grey;
+                                    text-decoration: none;
+                                    box-sizing: border-box;
+                                    vertical-align: middle;
+                                    word-spacing: 5px;
+                                }
+                                /* blog end*/
+                                /* contact */
+                                
+                                .contactbar {
+                                    width: 90%;
+                                    margin: auto;
+                                    border: indianred;
+                                    overflow: hidden;
+                                    scroll-snap-type: mandatory;
+                                }
+                                
+                                .googlemap {
+                                    margin-top: 10px;
+                                    height: 500px;
+                                    width: 100%;
+                                }
+                                
+                                .googlemap img {
+                                    height: 450px;
+                                    width: 100%;
+                                }
+                                
+                                .contactdetails {
+                                    width: 100%;
+                                    display: flex;
+                                    flex-direction: row;
+                                    margin-left: 30px;
+                                }
+                                
+                                .saloncontact {
+                                    width: 40%;
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                                
+                                .personaldetalis {
+                                    width: 100%;
+                                    display: flex;
+                                    flex-direction: row;
+                                    margin: 10px;
+                                }
+                                
+                                .personallogo {
+                                    color: rgb(233, 10, 122);
+                                    font-size: 50px;
+                                }
+                                
+                                .contactdetailheading {
+                                    font-size: 20px;
+                                    margin-left: 20px;
+                                }
+                                
+                                .contactdetailss {
+                                    color: gray;
+                                    font-size: 18px;
+                                    margin-left: 20px;
+                                }
+                                
+                                .customercontactdetails {
+                                    width: 60%;
+                                }
+                                
+                                .customerpersonaldetail {
+                                    width: 200px;
+                                    height: 20px;
+                                    border: 1px solid darkslategrey;
+                                    margin: 0px 5px;
+                                    text-align: left;
+                                    padding: 10px 10px;
+                                }
+                                
+                                .messagebox {
+                                    width: 80%;
+                                    height: 100px;
+                                    border: 1px solid darkslategrey;
+                                    margin: 18px 5px;
+                                    text-align: left;
+                                    padding: 10px 10px;
+                                }
+                                
+                                .msgbutton {
+                                    height: 50px;
+                                    width: 150px;
+                                    margin-bottom: 26px;
+                                    border: none;
+                                    background-color: rgb(243, 10, 99);
+                                    margin-top: 18px;
+                                    color: white;
+                                    font-weight: bold;
+                                    font-size: 15px;
+                                    border-radius: 40px;
+                                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                }
+                                /* contact end */
+                                /* footer */
+                                
+                                .footer {
+                                    display: none;
+                                    margin-top: 0px;
+                                    width: 100%;
+                                    height: 200px;
+                                    background-color: rgb(243, 10, 99);
+                                    text-align: center;
+                                    color: white;
+                                }
+                                
+                                .footer p {
+                                    font-style: italic;
+                                    padding-top: 5px;
+                                }
+                                /* footer end */
+                                /* contentbar end */
+                                
+                                @media screen and (max-width:426px) {
+                                    body {
+                                        overflow: scroll;
+                                    }
+                                    .home button {
+                                        display: inline-block;
+                                        margin-top: 10px;
+                                        position: absolute;
+                                        z-index: 1;
+                                    }
+                                    .profilebar {
+                                        display: none;
+                                    }
+                                    .content {
+                                        width: 100%;
+                                    }
+                                    .home {
+                                        width: 100%;
+                                        height: 100vh;
+                                        animation: salon;
+                                        animation-duration: 15s;
+                                        animation-iteration-count: infinite;
+                                        animation-timing-function: ease-in-out;
+                                    }
+                                    @keyframes salon {
+                                        0% {
+                                            background-size: 100% 100vh;
+                                            background-image: url(../image/depositphotos_88997628-stock-photo-woman-applying-dry-cosmetic-tonal.jpg);
+                                        }
+                                        50% {
+                                            background-image: url(../image/71Qqnhm0LtL._SL1500_.jpg);
+                                            background-repeat: no-repeat;
+                                            background-size: 100% 100vh;
+                                        }
+                                        100% {
+                                            background-image: url(../image/istockphoto-500504815-612x612.jpg);
+                                            background-repeat: no-repeat;
+                                            background-size: 100% 100vh;
+                                        }
+                                    }
+                                    .mlatestnews {
+                                        display: block;
+                                        width: 80%;
+                                        margin: auto;
+                                    }
+                                    .mlatestnews .container .row {
+                                        width: 100%;
+                                        flex-direction: column;
+                                    }
+                                    .mlatestnews .container .row .newsbox {
+                                        width: 100%;
+                                        box-sizing: border-box;
+                                    }
+                                    .mlatestnews .container .row .newsbox .newssubbox {
+                                        width: 100%;
+                                        box-sizing: border-box;
+                                        margin: 10px 0px;
+                                        text-emphasis: center;
+                                        background-color: white;
+                                        border: 1px solid rgba(128, 128, 128, 0.082);
+                                    }
+                                    .customerreview {
+                                        display: block;
+                                    }
+                                    .cosmeticbrands {
+                                        display: block;
+                                    }
+                                    .home .mlatestnews {
+                                        display: block;
+                                    }
+                                    h3 {
+                                        margin-top: 15px;
+                                        font-size: 30px;
+                                    }
+                                    h4 {
+                                        font-size: 20px;
+                                    }
+                                    .information {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    .customerimages {
+                                        height: 300px;
+                                        width: 250px;
+                                        margin: auto;
+                                    }
+                                    .aboutsalon p {
+                                        padding-left: 10px;
+                                        text-align: left;
+                                    }
+                                    .imagebox {
+                                        width: 100%;
+                                    }
+                                    .salonteam {
+                                        display: block;
+                                    }
+                                    .salonteam .containerteam {
+                                        width: 90%;
+                                        margin: auto;
+                                    }
+                                    .salonteam .teamrow {
+                                        width: 100%;
+                                        flex-direction: column;
+                                    }
+                                    .salonteam .teambox {
+                                        width: 100%;
+                                        box-sizing: border-box;
+                                    }
+                                    .salonteam .teamsubbox {
+                                        width: 100%;
+                                        text-align: center;
+                                    }
+                                    .salonteam .teamsubbox img {
+                                        height: 150px;
+                                        width: 150px;
+                                        border-radius: 50%;
+                                    }
+                                    .salonteam .teamsubbox h1 {
+                                        font-size: 25px;
+                                        margin-top: 30px;
+                                    }
+                                    .salonteam .teamsubbox h2 {
+                                        font-size: 17px;
+                                        color: rgb(233, 12, 122);
+                                        font-style: normal;
+                                        margin-top: 10px;
+                                    }
+                                    .salonteam .teamsubbox p {
+                                        padding: 20px 0px;
+                                        text-align: center;
+                                    }
+                                    .salonteam .teamsubbox .socialbar {
+                                        display: flex;
+                                        flex-direction: row;
+                                        padding-left: 50px;
+                                    }
+                                    .salonteam .teamsubbox .socialbox {
+                                        height: 30px;
+                                        width: 30px;
+                                        padding-top: 10px;
+                                        background-color: white;
+                                        border: 1px solid rgb(230, 11, 120);
+                                        border-radius: 50%;
+                                        margin: 0px 10px;
+                                    }
+                                    .salonteam .teamsubbox i {
+                                        font-size: 17px;
+                                    }
+                                    .blogcontent {
+                                        flex-direction: column;
+                                    }
+                                    .blogimage {
+                                        height: 300px;
+                                        width: 300px;
+                                        margin-bottom: 30px;
+                                    }
+                                    .blogimage img {
+                                        height: 300px;
+                                        width: 280px;
+                                    }
+                                    .blogsearch {
+                                        width: 280px;
+                                    }
+                                    .blogsearchbuttonbox {
+                                        margin-left: 0px;
+                                    }
+                                    h5 {
+                                        margin-left: 10px;
+                                    }
+                                    .googlemap {
+                                        margin-top: 10px;
+                                        height: 300px;
+                                        width: 100%;
+                                    }
+                                    .googlemap img {
+                                        height: 300px;
+                                        width: 100%;
+                                    }
+                                    .contactdetails {
+                                        flex-direction: column;
+                                        margin-left: 0px;
+                                        margin-top: 20px;
+                                        margin-bottom: 20px;
+                                    }
+                                    .personaldetalis {
+                                        width: 100%;
+                                        display: flex;
+                                        flex-direction: row;
+                                        margin: 10px;
+                                    }
+                                    .personallogo {
+                                        font-size: 40px;
+                                    }
+                                    .contactdetailheading {
+                                        font-size: 18px;
+                                        margin-left: 20px;
+                                    }
+                                    .contactdetailss {
+                                        width: 400px;
+                                    }
+                                    .customercontactdetails {
+                                        width: 250px;
+                                        margin-top: 10px;
+                                        text-align: center;
+                                    }
+                                    .customerpersonaldetail {
+                                        width: 245px;
+                                        margin: 8px 10px;
+                                    }
+                                    .messagebox {
+                                        width: 250px;
+                                        margin: 10px 5px;
+                                        text-align: left;
+                                        padding: 10px 10px;
+                                    }
+                                    .msgbutton {
+                                        margin: auto;
+                                        border: none;
+                                        margin-top: 18px;
+                                        margin-left: 30px;
+                                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                    }
+                                    .footer {
+                                        display: block;
+                                    }
+                                }
+                                
+                                @media screen and (max-width:768px) and (min-width:427px) {
+                                    body {
+                                        overflow: scroll;
+                                    }
+                                    .home button {
+                                        display: inline-block;
+                                        margin-top: 10px;
+                                        position: absolute;
+                                        z-index: 1;
+                                    }
+                                    .profilebar {
+                                        display: none;
+                                    }
+                                    .content {
+                                        width: 100%;
+                                    }
+                                    .home {
+                                        width: 100%;
+                                        height: 100vh;
+                                        animation: salon;
+                                        animation-duration: 15s;
+                                        animation-iteration-count: infinite;
+                                        animation-timing-function: ease-in-out;
+                                    }
+                                    @keyframes salon {
+                                        0% {
+                                            background-size: 100% 100vh;
+                                            background-image: url(../image/depositphotos_88997628-stock-photo-woman-applying-dry-cosmetic-tonal.jpg);
+                                        }
+                                        50% {
+                                            background-image: url(../image/71Qqnhm0LtL._SL1500_.jpg);
+                                            background-repeat: no-repeat;
+                                            background-size: 100% 100vh;
+                                        }
+                                        100% {
+                                            background-image: url(../image/istockphoto-500504815-612x612.jpg);
+                                            background-repeat: no-repeat;
+                                            background-size: 100% 100vh;
+                                        }
+                                    }
+                                    h3 {
+                                        margin-top: 15px;
+                                        font-size: 30px;
+                                    }
+                                    h4 {
+                                        font-size: 20px;
+                                    }
+                                    .aboutsalon {
+                                        display: none;
+                                    }
+                                }
